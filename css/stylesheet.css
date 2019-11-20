@@ -1,0 +1,272 @@
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+.navbar{
+    width:1080px;
+    margin: 0 auto;
+}
+.navbar ul {
+    text-align: center;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline;
+    padding: 40px;
+   
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.navbar ul li a:hover {
+    color: #FA3444;
+}
+.insta_icon{
+    width: 40px;
+    height:40px;
+}
+.twitter_icon{
+     width: 40px;
+    height:40px;
+}
+.youtube_icon{
+    width: 40px;
+    height:40px;
+}
+footer{
+    text-align: left;
+     width: 1080px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: capitalize;
+    background-color: white;
+}
+footer p {
+    
+   padding: 15px;
+    padding-left: 15px;
+    width: 1080px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+}
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+
+}
+
+.icons {
+    float: left;
+    padding-right: 5px;
+}
+
+.item{
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+  margin-top: 15px;
+}
+
+.item:hover{
+    flex:7;
+}
+
+.item-1 { 
+  background-image: url('https://imagez.tmz.com/image/63/1by1/2018/09/07/632d949dfb7750e1b680374ee51eb4b8_xl.jpg');
+}
+
+.item-2 { 
+  background-image: url('https://i.pinimg.com/originals/b6/1a/bd/b61abd6f474ad2bd854776cd9f95fe23.jpg');
+}
+
+.item-3 { 
+  background-image: url('https://cdn.vox-cdn.com/thumbor/DKG61_-b1E7W2Un0l4x1w_TumVI=/0x0:3000x2000/1200x800/filters:focal(1144x362:1624x842)/cdn.vox-cdn.com/uploads/chorus_image/image/61257057/MacTinyDesk02_EslahAttar_NPR_Ringer.0.jpg');
+}
+
+.item-4 { 
+  background-image: url('https://www.rollingstone.com/wp-content/uploads/2019/10/9063128g.jpg');
+}
+  img{
+    display: block;
+    width: 40px;
+}
+
+img{
+    width: 100%;
+}
+.quote-under{
+    text-decoration: none;
+    font-size: 25px;
+    color: #FA3444;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+   
+.grid-container > div {
+    background-color: white;
+}
+.img_bio{
+    grid-column:1/4;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-size: 45px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration-line: overline;
+    grid-column: 4/6;
+    margin-top: 41px;
+    
+}
+h4{
+    font-size: 25px;
+    font-family: 'Nunito Sans', sans-serif;
+    grid-column: 3/6;
+    line-height: 35px;
+    color: #FA3444;
+   
+}
+
+
+.bio_scroll{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    line-height: 31px;
+    grid-column: 4/6;
+    padding-left: 20px;
+    
+}
+.movie_img{
+    grid-column: 3;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-family:  'Nunito Sans', sans-serif;
+    filter: opacity(1)
+        
+}
+.movie_img:hover{
+    filter: opacity(0.8)
+}
+.blue_img{
+    grid-column: 4;
+    grid-row: 2;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family:  'Nunito Sans', sans-serif;
+    filter: opacity(1)
+}
+.blue_img:hover{
+    filter: opacity(0.8)
+    
+}
+.swim_img{
+    grid-column: 4;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family:  'Nunito Sans', sans-serif;
+    color: #FA3444;
+    filter: opacity(1)
+}
+.swim_img:hover{
+    filter: opacity(0.6)
+}
+.fem_img{
+    grid-column: 3;
+    grid-row: 3;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-family:  'Nunito Sans', sans-serif;
+    filter: opacity(1)
+    
+}
+.fem_img:hover{
+    filter: opacity(0.8)
+}
+.good_img{
+    margin-top: 20px;
+    margin-right: 20px;
+    grid-row: 2;
+    grid-column: 3;
+    font-family:  'Nunito Sans', sans-serif;
+    color: #FA3444;
+    filter: opacity(1)
+}
+.good_img:hover{
+    filter: opacity(0.6)
+}
+.larry_img{
+    grid-column: 4;
+    grid-row: 3;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family:  'Nunito Sans', sans-serif;
+    color: #FA3444;
+    filter: opacity(1)
+}
+.larry_img:hover{
+    filter: opacity(0.6)
+}
+.mac_sing{
+    margin-top: 30px;
+    grid-column: 
+   
+}
+
+
+h5{
+    font-size: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration-line: overline;
+    grid-column: 5;
+    margin-top: 30px;
+    margin-bottom: 0;
+  
+}
+
+.tour_back{
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 27px;
+    grid-column: 2/4;
+    line-height: 
+   
+}
+h1{
+    font-size: 35px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration-line: overline;
+    margin-top: 28px;
+}
+.tour_date{
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    grid-column: 4/6;
+    margin-top: 2px;
+    padding-left: 50px;
+    padding-right: 20px
+}
+.tour_date:link{
+    color: black;
+}
+.tour_date:hover{
+    color: #FA3444;
+}
+.videowrapper{
+    margin-top: 185px;
+}
+
+
